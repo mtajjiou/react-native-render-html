@@ -28,9 +28,9 @@ export function generateDefaultTextStyles (baseFontSize = BASE_FONT_SIZE) {
         u: { textDecorationLine: 'underline' },
         em: { fontStyle: 'italic' },
         i: { fontStyle: 'italic' },
-        b: { fontWeight: 'bold' },
+        // b: { fontWeight: 'bold' },
         s: { textDecorationLine: 'line-through' },
-        strong: { fontWeight: 'bold' },
+        // strong: { fontWeight: 'bold' },
         big: { fontSize: baseFontSize * 1.2 },
         small: { fontSize: baseFontSize * 0.8 },
         a: {
@@ -72,7 +72,6 @@ function _generateHeadingStyle (baseFontSize, fontMultiplier, marginMultiplier) 
     return {
         fontSize: baseFontSize * fontMultiplier,
         marginTop: (baseFontSize * fontMultiplier) * marginMultiplier,
-        marginBottom: (baseFontSize * fontMultiplier) * marginMultiplier,
-        fontWeight: 'bold'
+        marginBottom: (baseFontSize * fontMultiplier) * marginMultiplier
     };
 }
