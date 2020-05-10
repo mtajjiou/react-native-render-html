@@ -26,8 +26,8 @@ export function generateDefaultBlockStyles (baseFontSize = BASE_FONT_SIZE) {
 export function generateDefaultTextStyles (baseFontSize = BASE_FONT_SIZE) {
     return {
         u: { textDecorationLine: 'underline' },
-        em: { fontStyle: 'italic' },
-        i: { fontStyle: 'italic' },
+        // em: { fontStyle: 'italic' },
+        // i: { fontStyle: 'italic' },
         // b: { fontWeight: 'bold' },
         s: { textDecorationLine: 'line-through' },
         // strong: { fontWeight: 'bold' },
